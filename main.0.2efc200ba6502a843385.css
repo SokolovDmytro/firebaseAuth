@@ -1,0 +1,1 @@
+html{box-sizing:border-box}*,:after,:before{box-sizing:inherit;padding:0;margin:0}.navigationList{list-style:none;display:flex;justify-content:space-around;background-color:#000;height:30px;align-items:center}.navigationListItem{color:#fff;cursor:pointer}.activeLink{color:red}
