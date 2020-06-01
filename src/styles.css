@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.navigationList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 30px;
+  align-items: center;
+}
+
+.navigationListItem {
+  color: white;
+  cursor: pointer;
+}
+
+.activeLink {
+  color: red;
+}
